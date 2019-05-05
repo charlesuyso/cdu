@@ -2,10 +2,12 @@
   "name": "port",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "homepage": "https://charlesuyso.github.io/website",
   "dependencies": {
     "antd": "^3.16.6",
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-page-scroller": "^1.4.3",
@@ -13,12 +15,11 @@
     "react-sky": "^1.1.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
