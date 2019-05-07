@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.333cb8fd.chunk.css",
+    "main.css": "/build/static/css/main.94dd85ab.chunk.css",
     "main.js": "/build/static/js/main.472211af.chunk.js",
     "main.js.map": "/build/static/js/main.472211af.chunk.js.map",
     "runtime~main.js": "/build/static/js/runtime~main.9df7376b.js",
@@ -9,10 +9,10 @@
     "static/js/2.6781687e.chunk.js": "/build/static/js/2.6781687e.chunk.js",
     "static/js/2.6781687e.chunk.js.map": "/build/static/js/2.6781687e.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.164f439dce495c0a6489248a9266f73a.js": "/build/precache-manifest.164f439dce495c0a6489248a9266f73a.js",
+    "precache-manifest.293bfec864c10e50866c80f4e73e3ddc.js": "/build/precache-manifest.293bfec864c10e50866c80f4e73e3ddc.js",
     "service-worker.js": "/build/service-worker.js",
     "static/css/2.a414b599.chunk.css.map": "/build/static/css/2.a414b599.chunk.css.map",
-    "static/css/main.333cb8fd.chunk.css.map": "/build/static/css/main.333cb8fd.chunk.css.map",
+    "static/css/main.94dd85ab.chunk.css.map": "/build/static/css/main.94dd85ab.chunk.css.map",
     "static/media/logo.svg": "/build/static/media/logo.5d5d9eef.svg",
     "static/media/polyimg.svg": "/build/static/media/polyimg.90e0eb32.svg",
     "static/media/App.css": "/build/static/media/raleway-v13-latin-regular.f6c57152.svg"

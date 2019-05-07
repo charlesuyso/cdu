@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Icon, Row, Col, Progress} from "antd";
-import polyimage from './polyimg.svg';
+import polyimage from './polyimg.png';
 import Social from './PageComponents/social'
 
 

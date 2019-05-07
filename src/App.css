@@ -211,7 +211,7 @@ align-items: center !important;
 }
 
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .poly-image > img {
     height: 42vh;
   }
@@ -245,7 +245,7 @@ align-items: center !important;
   }
 
 }
-@media (max-width: 670px) {
+@media screen and (max-width: 670px) {
   .poly-image > img {
     height: 43vh;
   }
@@ -309,7 +309,7 @@ align-items: center !important;
 
 }
 
-@media (max-width: 428px) {
+@media screen and (max-width: 428px) {
 	.poly-head-container {
 		/* width: 750px; */
     padding-left: 4%;
@@ -352,7 +352,7 @@ align-items: center !important;
     width: 30% !important;
   }
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .stats-container-third {
     padding-top: 20%;
   }
