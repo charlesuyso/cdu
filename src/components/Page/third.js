@@ -49,8 +49,18 @@ class Third extends Component {
     this.setState({loading: true});
     this.props.form.validateFields((err, values) => {
       if (!err) {
-        axios
-          .post("/api/form/send", values)
+        const url ="https://morning-bastion-85123.herokuapp.com";
+        axios({
+          method: "post",
+          url: `${url}/api/form/send`,
+          data: values,
+          mode: 'no-cors',
+          headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': 'application/json',
+        },
+        withCredentials: true
+        })
           .then(res => {
             this.setState({
               submitMessage: (
@@ -65,20 +75,20 @@ class Third extends Component {
             });
           })
           .catch(err => {
-            this.setState({
-              submitMessage: (
-                <Alert
-                  message="Something Went Wrong.."
-                  className="submit-message"
-                  type="error"
-                  showIcon
-                />
-            ),
-            loading: false
-            });
+          console.log(err);
+          this.setState({
+            submitMessage: (
+              <Alert
+                message="Something Went Wrong.."
+                className="submit-message"
+                type="error"
+                showIcon
+              />
+          ),
+          loading: false
           });
-      }
-    });
+        });
+      }});
   };
 
   render() {
