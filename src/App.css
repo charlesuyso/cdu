@@ -307,6 +307,7 @@ align-items: center !important;
   .polygon-container {
     padding-bottom: 0 !important;
     padding-top: 5% !important;
+    padding-left: 0 !important;
   }
   .polygon-container:nth-child(1) {
     margin-right: 50px;
