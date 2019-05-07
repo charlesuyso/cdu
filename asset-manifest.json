@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/cdu/static/css/main.8ee9d991.chunk.css",
-    "main.js": "/cdu/static/js/main.b4286501.chunk.js",
-    "main.js.map": "/cdu/static/js/main.b4286501.chunk.js.map",
-    "runtime~main.js": "/cdu/static/js/runtime~main.dfd7d0cc.js",
-    "runtime~main.js.map": "/cdu/static/js/runtime~main.dfd7d0cc.js.map",
-    "static/css/2.a414b599.chunk.css": "/cdu/static/css/2.a414b599.chunk.css",
-    "static/js/2.1cc9e616.chunk.js": "/cdu/static/js/2.1cc9e616.chunk.js",
-    "static/js/2.1cc9e616.chunk.js.map": "/cdu/static/js/2.1cc9e616.chunk.js.map",
-    "index.html": "/cdu/index.html",
-    "precache-manifest.64b325d62fb69f2eaf8c077599d404e7.js": "/cdu/precache-manifest.64b325d62fb69f2eaf8c077599d404e7.js",
-    "service-worker.js": "/cdu/service-worker.js",
-    "static/css/2.a414b599.chunk.css.map": "/cdu/static/css/2.a414b599.chunk.css.map",
-    "static/css/main.8ee9d991.chunk.css.map": "/cdu/static/css/main.8ee9d991.chunk.css.map",
-    "static/media/logo.svg": "/cdu/static/media/logo.5d5d9eef.svg",
-    "static/media/polyimg.svg": "/cdu/static/media/polyimg.90e0eb32.svg",
-    "static/media/App.css": "/cdu/static/media/raleway-v13-latin-regular.f6c57152.svg"
+    "main.css": "/build/static/css/main.98f14547.chunk.css",
+    "main.js": "/build/static/js/main.2a835562.chunk.js",
+    "main.js.map": "/build/static/js/main.2a835562.chunk.js.map",
+    "runtime~main.js": "/build/static/js/runtime~main.9df7376b.js",
+    "runtime~main.js.map": "/build/static/js/runtime~main.9df7376b.js.map",
+    "static/css/2.a414b599.chunk.css": "/build/static/css/2.a414b599.chunk.css",
+    "static/js/2.3834bc1f.chunk.js": "/build/static/js/2.3834bc1f.chunk.js",
+    "static/js/2.3834bc1f.chunk.js.map": "/build/static/js/2.3834bc1f.chunk.js.map",
+    "index.html": "/build/index.html",
+    "precache-manifest.7e428bb66441b410fb7585827950f7f2.js": "/build/precache-manifest.7e428bb66441b410fb7585827950f7f2.js",
+    "service-worker.js": "/build/service-worker.js",
+    "static/css/2.a414b599.chunk.css.map": "/build/static/css/2.a414b599.chunk.css.map",
+    "static/css/main.98f14547.chunk.css.map": "/build/static/css/main.98f14547.chunk.css.map",
+    "static/media/logo.svg": "/build/static/media/logo.5d5d9eef.svg",
+    "static/media/polyimg.png": "/build/static/media/polyimg.4ff9affa.png",
+    "static/media/App.css": "/build/static/media/raleway-v13-latin-regular.f6c57152.svg"
   }
 }
