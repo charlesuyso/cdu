@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.08d82cb0.chunk.css",
+    "main.js": "/website/static/js/main.b2504055.chunk.js",
+    "main.js.map": "/website/static/js/main.b2504055.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/css/2.a414b599.chunk.css": "/website/static/css/2.a414b599.chunk.css",
+    "static/js/2.90dc4ab4.chunk.js": "/website/static/js/2.90dc4ab4.chunk.js",
+    "static/js/2.90dc4ab4.chunk.js.map": "/website/static/js/2.90dc4ab4.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.36e9d9da64258f37633dac0ae5f7f042.js": "/website/precache-manifest.36e9d9da64258f37633dac0ae5f7f042.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.a414b599.chunk.css.map": "/website/static/css/2.a414b599.chunk.css.map",
+    "static/css/main.08d82cb0.chunk.css.map": "/website/static/css/main.08d82cb0.chunk.css.map",
+    "static/media/logo.svg": "/website/static/media/logo.5d5d9eef.svg",
+    "static/media/polyimg.svg": "/website/static/media/polyimg.90e0eb32.svg",
+    "static/media/App.css": "/website/static/media/raleway-v13-latin-regular.f6c57152.svg"
+  }
+}
