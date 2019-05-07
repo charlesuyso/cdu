@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/charlesuyso.github.io/static/css/main.7d077930.chunk.css",
-    "main.js": "/charlesuyso.github.io/static/js/main.ac567479.chunk.js",
-    "main.js.map": "/charlesuyso.github.io/static/js/main.ac567479.chunk.js.map",
-    "runtime~main.js": "/charlesuyso.github.io/static/js/runtime~main.02f9a5a5.js",
-    "runtime~main.js.map": "/charlesuyso.github.io/static/js/runtime~main.02f9a5a5.js.map",
-    "static/css/2.a414b599.chunk.css": "/charlesuyso.github.io/static/css/2.a414b599.chunk.css",
-    "static/js/2.419afc8d.chunk.js": "/charlesuyso.github.io/static/js/2.419afc8d.chunk.js",
-    "static/js/2.419afc8d.chunk.js.map": "/charlesuyso.github.io/static/js/2.419afc8d.chunk.js.map",
-    "index.html": "/charlesuyso.github.io/index.html",
-    "precache-manifest.a1f8d314a78e72b9de52e27924041ae5.js": "/charlesuyso.github.io/precache-manifest.a1f8d314a78e72b9de52e27924041ae5.js",
-    "service-worker.js": "/charlesuyso.github.io/service-worker.js",
-    "static/css/2.a414b599.chunk.css.map": "/charlesuyso.github.io/static/css/2.a414b599.chunk.css.map",
-    "static/css/main.7d077930.chunk.css.map": "/charlesuyso.github.io/static/css/main.7d077930.chunk.css.map",
-    "static/media/logo.svg": "/charlesuyso.github.io/static/media/logo.5d5d9eef.svg",
-    "static/media/polyimg.svg": "/charlesuyso.github.io/static/media/polyimg.90e0eb32.svg",
-    "static/media/App.css": "/charlesuyso.github.io/static/media/raleway-v13-latin-regular.f6c57152.svg"
+    "main.css": "/static/css/main.1ca9fae7.chunk.css",
+    "main.js": "/static/js/main.5ebf24d6.chunk.js",
+    "main.js.map": "/static/js/main.5ebf24d6.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.a414b599.chunk.css": "/static/css/2.a414b599.chunk.css",
+    "static/js/2.814f4704.chunk.js": "/static/js/2.814f4704.chunk.js",
+    "static/js/2.814f4704.chunk.js.map": "/static/js/2.814f4704.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.37a4104e234859693ce7c69882325898.js": "/precache-manifest.37a4104e234859693ce7c69882325898.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a414b599.chunk.css.map": "/static/css/2.a414b599.chunk.css.map",
+    "static/css/main.1ca9fae7.chunk.css.map": "/static/css/main.1ca9fae7.chunk.css.map",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/polyimg.svg": "/static/media/polyimg.90e0eb32.svg",
+    "static/media/App.css": "/static/media/raleway-v13-latin-regular.f6c57152.svg"
   }
 }
