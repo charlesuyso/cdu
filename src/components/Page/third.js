@@ -9,7 +9,9 @@ import {
   Button,
   Select,
   Input,
-  Alert
+  Alert,
+  Spin,
+  Modal
 } from "antd";
 import axios from "axios";
 
@@ -28,7 +30,8 @@ class Third extends Component {
       contactNumber: "",
       email: "",
       message: "",
-      submitMessage: ""
+      submitMessage: "",
+      loading: false
     };
   }
 
@@ -43,13 +46,14 @@ class Third extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
+    this.setState({loading: true});
     this.props.form.validateFields((err, values) => {
       if (!err) {
+
         console.log("Received values of form: ", values);
         axios
           .post("/api/form/send", values)
           .then(res => {
-            console.log("adfasf");
             this.setState({
               submitMessage: (
                 <Alert
@@ -58,7 +62,8 @@ class Third extends Component {
                   type="success"
                   showIcon
                 />
-              )
+            ),
+            loading: false
             });
           })
           .catch(err => {
@@ -221,8 +226,15 @@ class Third extends Component {
                 )}
               </FormItem>
               <Button type="primary" htmlType="submit" className="next">
-                SUBMIT
+              SUBMIT
               </Button>
+
+              <Modal
+                width="300"
+                visible={this.state.loading ? true : false}
+              >
+                <Spin size="large" indicator={<Icon type="loading" style={{ fontSize: 100, color: "#E31B6D" }} spin />} />
+              </Modal>
             </Row>
           </Form>
         </div>

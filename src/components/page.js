@@ -6,7 +6,7 @@ import First from "./Page/first";
 import Second from "./Page/second";
 import Second2 from "./Page/second2";
 import Second3 from "./Page/second3";
-// import Third from "./Page/third";
+import Third from "./Page/third";
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -111,6 +111,7 @@ class Page extends Component {
                 Number(this.state.currentSubmenu) === 4 ? true : false
               }
             />
+          <Third/>
           </ReactPageScroller>
         </div>
         {Number(this.state.currentSubmenu) === 5 ? null : (
@@ -161,7 +162,8 @@ class Page extends Component {
                 Number(this.state.currentSubmenu) === 2 ? true : false
               }
             />
-
+            <Third/>
+          
           </ReactPageScroller>
         </div>
         {Number(this.state.currentSubmenu) === 3 ? null : (

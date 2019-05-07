@@ -523,15 +523,28 @@ border-bottom: 2px solid #04C2C9 !important;
   animation-delay: 0s;
 }
 .submit-message {
-  animation: hide-submit-message 3s ease-in 0s;
+  animation: hide-submit-message 4s ease-in 0s;
   visibility: hidden ;
    z-index: 100000;
    position: absolute !important;
-   left: 35%
+   left: 25%;
+   right: 25%;
 }
 
 
-
+.ant-modal-close-x {
+  display: none !important;
+}
+.ant-modal-footer {
+  display: none !important;
+}
+.ant-modal-content {
+  background: transparent !important;
+}
+.ant-modal-body {
+  display: flex !important;
+  justify-content: center !important;
+}
 @-webkit-keyframes slide-left {
   100% { left: 0; position: 0;}
 }
