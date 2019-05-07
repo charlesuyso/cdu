@@ -49,8 +49,6 @@ class Third extends Component {
     this.setState({loading: true});
     this.props.form.validateFields((err, values) => {
       if (!err) {
-
-        console.log("Received values of form: ", values);
         axios
           .post("/api/form/send", values)
           .then(res => {
@@ -75,7 +73,8 @@ class Third extends Component {
                   type="error"
                   showIcon
                 />
-              )
+            ),
+            loading: false
             });
           });
       }
