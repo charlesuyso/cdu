@@ -52,44 +52,49 @@ class First extends Component {
        </div>
      </Col>
    </Row>
-   {windowSize > 670 ? <div className="info-container">
-     <div className={activeSecond ? "poly-image poly-image-active" : "poly-image"}>
-       <img src={polyimage} alt="charles"/>
-       <h1>Who's this guy?</h1>
-       <p>
-         I'm the Front-End / Back-End Developer from Philippines,<br/>
-         I have serious passion for Developing Websites and Creating Fast and Responsive Websites,
-       </p>
-       <Social/>
-      </div>
+   {windowSize > 670 ?
+     <div className="info-c2ontainer">
+       <Row>
+<Col span={12}> <div className={activeSecond ? "poly-image poly-image-active" : "poly-image"}>
+   <img src={polyimage} alt="charles"/>
+   <h1>Who's this guy?</h1>
+   <p>
+     I'm the Front-End / Back-End Developer from Philippines,<br/>
+     I have serious passion for Developing Websites and Creating Fast and Responsive Websites,
+   </p>
+   <Social/>
+  </div>
 
-       <Row className={activeSecond ? "box-stats box-stats-active" : "box-stats"}>
-          <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
-            <p className="stats-title">HTML</p>
-            <Progress percent={80} status="active" />
-          </Col>
-          <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
-            <p className="stats-title">CSS</p>
-            <Progress percent={80} status="active" />
-          </Col>
-          <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
-            <p className="stats-title">Javascript</p>
-            <Progress percent={85} status="active" />
-          </Col>
-          <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
-            <p className="stats-title">React</p>
-            <Progress percent={85} status="active" />
-          </Col>
-          <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
-            <p className="stats-title">Node.js</p>
-            <Progress percent={75} status="active" />
-          </Col>
-          <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
-            <p className="stats-title">PHP</p>
-            <Progress percent={80} status="active" />
-          </Col>
+   </Col>
+   <Col span={12}>
+     <Row className={activeSecond ? "box-stats box-stats-active" : "box-stats"}>
+        <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
+          <p className="stats-title">HTML</p>
+          <Progress percent={80} status="active" />
+        </Col>
+        <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
+          <p className="stats-title">CSS</p>
+          <Progress percent={80} status="active" />
+        </Col>
+        <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
+          <p className="stats-title">Javascript</p>
+          <Progress percent={85} status="active" />
+        </Col>
+        <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
+          <p className="stats-title">React</p>
+          <Progress percent={85} status="active" />
+        </Col>
+        <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
+          <p className="stats-title">Node.js</p>
+          <Progress percent={75} status="active" />
+        </Col>
+        <Col xs={10} sm={6} md={6} lg={6} xl={6} className="stats-container">
+          <p className="stats-title">PHP</p>
+          <Progress percent={80} status="active" />
+        </Col>
+     </Row>
+   </Col>
        </Row>
-
    </div>: null}
 
       </div>
