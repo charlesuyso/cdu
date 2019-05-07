@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/build/static/css/main.94dd85ab.chunk.css",
-    "main.js": "/build/static/js/main.472211af.chunk.js",
-    "main.js.map": "/build/static/js/main.472211af.chunk.js.map",
+    "main.js": "/build/static/js/main.06937f7d.chunk.js",
+    "main.js.map": "/build/static/js/main.06937f7d.chunk.js.map",
     "runtime~main.js": "/build/static/js/runtime~main.9df7376b.js",
     "runtime~main.js.map": "/build/static/js/runtime~main.9df7376b.js.map",
     "static/css/2.a414b599.chunk.css": "/build/static/css/2.a414b599.chunk.css",
     "static/js/2.6781687e.chunk.js": "/build/static/js/2.6781687e.chunk.js",
     "static/js/2.6781687e.chunk.js.map": "/build/static/js/2.6781687e.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.293bfec864c10e50866c80f4e73e3ddc.js": "/build/precache-manifest.293bfec864c10e50866c80f4e73e3ddc.js",
+    "precache-manifest.041abf42cc813e904320ebf604e95fbd.js": "/build/precache-manifest.041abf42cc813e904320ebf604e95fbd.js",
     "service-worker.js": "/build/service-worker.js",
     "static/css/2.a414b599.chunk.css.map": "/build/static/css/2.a414b599.chunk.css.map",
     "static/css/main.94dd85ab.chunk.css.map": "/build/static/css/main.94dd85ab.chunk.css.map",
     "static/media/logo.svg": "/build/static/media/logo.5d5d9eef.svg",
-    "static/media/polyimg.svg": "/build/static/media/polyimg.90e0eb32.svg",
+    "static/media/polyimg.png": "/build/static/media/polyimg.4ff9affa.png",
     "static/media/App.css": "/build/static/media/raleway-v13-latin-regular.f6c57152.svg"
   }
 }
