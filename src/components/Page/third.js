@@ -50,7 +50,7 @@ class Third extends Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         axios
-          .post("/api/form/send", values)
+          .post("https://morning-bastion-85123.herokuapp.com/api/form/send", values)
           .then(res => {
             this.setState({
               submitMessage: (
