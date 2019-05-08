@@ -281,7 +281,7 @@ align-items: center !important;
   }
   .polygon-container {
     width: 40%;
-    padding: 18% 0% 0% 10%;
+    padding: 18% 0% 0% 0;
   }
   .poly-image {
     width: 100%;
