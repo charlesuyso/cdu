@@ -2,6 +2,7 @@
   "name": "port",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://morning-bastion-85123.herokuapp.com",
   "homepage": "https://charlesuyso.github.io/build",
     "dependencies": {
     "antd": "^3.16.6",

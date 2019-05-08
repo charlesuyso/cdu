@@ -51,15 +51,9 @@ class Third extends Component {
       if (!err) {
         const url ="https://morning-bastion-85123.herokuapp.com";
         axios({
-          method: "post",
+          method: "POST",
           url: `${url}/api/form/send`,
-          data: values,
-          mode: 'no-cors',
-          headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Content-Type': 'application/json',
-        },
-        withCredentials: true
+          data: values
         })
           .then(res => {
             this.setState({
