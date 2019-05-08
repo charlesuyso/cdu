@@ -36,10 +36,9 @@ class First extends Component {
          <Icon className="icon-polygon" type="experiment" />
        </div>
        <div className="poly-text">
-         <h1>Easy</h1>
-         <p>
-           Handling the project's easy and patient
-        </p>
+         <h1>Dynamic</h1>
+         <p>Dynamic web pages</p>
+
        </div>
      </Col>
      <Col xs={10} sm={6} md={6} lg={6} xl={6} className="polygon-container">
@@ -47,8 +46,10 @@ class First extends Component {
          <Icon className="icon-polygon" type="copy" />
        </div>
        <div className="poly-text">
-         <h1>Dynamic</h1>
-         <p>Dynamic web pages</p>
+         <h1>Knowledgeable</h1>
+         <p>
+           Handling or Taking a project's with right knowledge for the project
+        </p>
        </div>
      </Col>
    </Row>
