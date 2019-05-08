@@ -203,6 +203,14 @@ align-items: center !important;
   margin-top: 5%;
 }
 
+@media screen and (max-height: 710px) {
+  .icon-polygon {
+    font-size: 50px;
+  }
+  .poly-image > img {
+        height: 35vh;
+  }
+}
 @media screen and (max-width: 770px) {
   .poly-image > img {
     height: 42vh;
@@ -237,7 +245,7 @@ align-items: center !important;
 }
 @media screen and (max-width: 670px) {
   .poly-image > img {
-    height: 43vh;
+    height: 43vh !important;
   }
   .poly-image > h1 {
     font-size: 2em;
@@ -546,14 +554,6 @@ border-bottom: 2px solid #04C2C9 !important;
 
 
 
-@media screen and (max-height: 710px) {
-  .icon-polygon {
-    font-size: 50px;
-  }
-  .poly-image > img {
-        height: 35vh;
-  }
-}
 
 @media screen and (max-width: 775px), screen and (max-height: 670px) {
   /* font-size  */
