@@ -46,9 +46,9 @@ class First extends Component {
          <Icon className="icon-polygon" type="copy" />
        </div>
        <div className="poly-text">
-         <h1>Knowledgeable</h1>
+         <h1>Knowledge</h1>
          <p>
-           Handling or Taking a project's with right knowledge for the project
+           Handling project's with right knowledge
         </p>
        </div>
      </Col>
